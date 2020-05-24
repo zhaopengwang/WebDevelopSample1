@@ -1,0 +1,268 @@
+/*通用样式*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font:14px/24px '微软雅黑';
+}
+img{
+    border:none;
+}
+.wp{width:960px;
+    margin:0 auto;
+}
+.z{float:left;}
+.y{float:right;}
+.cl{clear:both;}
+.mr_0{margin:0;}
+
+.top{
+    width:100%;
+    height:24px;
+    line-height:24px;
+    background: #303030;
+    color:#d8d8d8;
+}
+.top span{margin-right:15px;}
+.top span.mr_0{margin:0;}
+.top a{
+    color:#d8d8d8;
+    text-decoration: none;
+}.top a:hover{
+    color:#f60;
+}
+/*logos*/
+.logos{
+    height: 56px;
+    margin: 15px 0px;
+}
+/*搜索*/
+.search{
+    width:330px;
+    height:40px;
+    margin-top: 8px;
+}
+.search td{
+    height:40px;
+}
+.s_z{
+    width:6px;
+    background: url("../images/s_z.gif") no-repeat;
+}
+.s_zhong{
+    width:180px;
+    background: url("../images/s_zhong.gif") repeat-x;
+}
+.s_y{
+    width:73px;
+    background: url("../images/s_y.gif") no-repeat;
+}
+.s_zhong input{
+    height:35px;
+    line-height: 35px;
+    border:none;
+    margin-top:2px;
+    width:180px;
+}
+.s_y button{
+    width:73px;
+    height:40px;
+    background: none;
+    border:0;
+    cursor:pointer;
+}
+.tel span{
+    font-size:26px;
+    color:darkred;
+}
+.tel{
+    height: 56px;
+    line-height: 56px;
+    margin-left: 15px;
+}
+/*导航*/
+.nav{
+    height: 37px;
+    width:100%;
+    background: url("../images/shouye_light.gif") repeat-x;
+}
+.nav li{
+    list-style: none;
+    float: left;
+    line-height: 37px;
+    padding: 0 20px;
+}
+.nav a{
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.nav li.a, .nav li:hover{
+    background: url("../images/shouye_dark.gif") repeat-x;
+}
+
+/*center*/
+.ad{margin-bottom: 10px;}
+.tit{
+    padding-bottom: 3px;
+    border-bottom: 1px solid darkred;
+    position: relative;
+    margin-bottom: 10px;
+}
+.tit span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.tit a{
+    color: darkred;
+    text-decoration: none;
+}
+.intro{
+    width:540px;
+    height:360px;
+    margin-right: 20px;
+}
+.jj_c img{
+    float: left;
+    margin: 0 10px 10px 0;
+}
+.jj_c p{
+    color: #7b7b7e;
+    text-indent: 24px;
+    word-wrap: break-word;
+    text-align: justify;
+    margin-bottom: 13px;
+    line-height: 28px;
+}
+.news{
+    width: 400px;
+    height: 360px;
+}
+.products {
+    width: 100%;
+    height: 300px;
+}
+.news_c{
+
+}
+.news_c li{
+    list-style: none;
+    line-height: 24px;
+    height: 24px;
+    position: relative;
+    padding-left: 15px;
+    background: url("../images/news_list_icon.gif") no-repeat center left;
+    margin-bottom: 5px;
+}
+.news_c li.a{
+    padding: 0px;
+    height: 74px;
+    background: none;
+    overflow: hidden;
+}
+.news_c li.a img{
+    float:left;
+    margin: 0 10px 10px 0;
+}
+.news_c p{
+    font-size: 12px;
+    color: #888;
+    text-indent: 24px;
+
+}
+.news_c span{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #888888;
+    font-size: 12px;
+}
+.news_c h3{
+    font-weight: normal;
+    font-size: 14px;
+}
+.news_c a{
+    color: #616161;
+    text-decoration: none;
+}
+.prod_c{
+
+}
+.prod_c li{
+    list-style: none;
+    float: left;
+    margin: 0 19px 10px 0;
+    height: 92px;
+    width: 144px;
+    overflow: hidden;
+    position: relative;
+}
+.prod_c span{
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    height: 20px;
+    width: 124px;
+    padding: 0 10px;
+    color: #d8d8d8;
+    background: darkred;
+    overflow: hidden;
+}
+.prod_c li a:hover span{
+    display: block;
+}
+.prod_c li img{
+    float: left;
+}
+.prod_c li.mr_0{
+    margin-right: 0;
+}
+/*footer*/
+
+.footer{
+    height: 99px;
+    background: url("../images/bot_49.jpg") repeat-x;
+    width: 100%;
+}
+.footer_top{
+    line-height: 80px;
+    height: 80px;
+    color: #ffffff;
+}
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+.footer_top .z{
+    font-size: 16px;
+}
+.footer_bottom{
+    line-height: 15px;
+    height: 15px;
+}
+.footer_bottom p{
+    color: #f60;
+    font-size: 12px;
+}
+.footer_bottom a{
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.footer_bottom a:hover{
+    color: #f60;
+}
+.toolbox{
+    position: fixed;
+    right:100px;
+    bottom: 150px;
+}
+.toolbox li{
+    list-style: none;
+    margin-bottom: 10px;
+
+}
